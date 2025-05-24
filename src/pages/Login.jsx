@@ -113,7 +113,12 @@ const Login = () => {
                   cursor: "pointer",
                   textDecoration: "none",
                 }}
-              ></Link>
+                onMouseOver={(e) =>
+                  (e.target.style.textDecoration = "underline")
+                }
+              >
+                Sign Up
+              </Link>
             </Typography>
           </Box>
         </Paper>
